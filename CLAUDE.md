@@ -16,6 +16,7 @@ olarak **Contabo VPS** kullanılır. Dağıtım, `main` dalına push yapıldığ
 - **Süreç yöneticisi (VPS):** PM2
 - **Web sunucusu (VPS):** Nginx (reverse proxy, port 80/443 → 3000)
 - **CI/CD:** GitHub Actions (`.github/workflows/deploy.yml`)
+- **Mimari Tercihler:** Modüler yapıya sadık kal, gereksiz kütüphane ekleme. Bana açıklama yapma, bir sorun olursa kısaca bahset.  
 
 ## Dizin Yapısı
 
