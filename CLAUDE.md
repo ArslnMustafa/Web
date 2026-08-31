@@ -82,3 +82,8 @@ Repo → Settings → Secrets and variables → Actions altında tanımlanmalı:
 - Gizli anahtarları (SSH key, .env) asla depoya commit'lemeyin.
 - Değişiklikten sonra push etmeden önce `npm run build` ve `npm run lint`
   yerelde çalıştırılmalı.
+
+## Kullanıcı Tercihleri (AI asistanı için)
+
+- **Mimari:** Modüler yapıya sadık kal; gereksiz kütüphane ekleme.
+- **İletişim:** Uzun açıklama yapma. Bir sorun olursa kısaca bahset.
