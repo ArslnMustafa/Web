@@ -1,0 +1,24 @@
+:root {
+  --bg: #0b1020;
+  --card: #141b33;
+  --accent: #4f7cff;
+  --text: #e8ecf7;
+  --muted: #9aa6c7;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: radial-gradient(1200px 600px at 50% -10%, #1c2547, var(--bg));
+  color: var(--text);
+  min-height: 100vh;
+}
+
+a {
+  color: var(--accent);
+}
